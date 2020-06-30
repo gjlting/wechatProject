@@ -5,9 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    msg: 'Hello world',
+    img: "/images/profile.png",
+    arr: [{
+      name: 'lucky',
+      age: '18'
+    },{
+      name: 'anne',
+      age: 20
+    },{
+      name: 'jane',
+      age: 30
+    }],
+    count: 0
   },
-
+  handlerClick() {
+    // this.data.count++
+    this.setData({
+      count: this.data.count + 1
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/base/base",
     "pages/cloud/cloud",
-    "pages/index/index",
+    
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -24,17 +25,19 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#f00",
     "list": [{
       "pagePath": "pages/base/base",
-      "text": "基础",
-      "iconPath": "images/base.png",
-      "selectIconPath": "images/base-actived.png"
+      "text": "电影",
+      "iconPath": "images/film.png",
+      "selectedIconPath": "images/film-actived.png"
     },
     {
       "pagePath": "pages/cloud/cloud",
-      "text": "云服务",
-      "iconPath": "images/cloud.png",
-      "selectIconPath": "images/cloud-actived.png"
+      "text": "我的",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile-actived.png"
     }]
   },
   "sitemapLocation": "sitemap.json",

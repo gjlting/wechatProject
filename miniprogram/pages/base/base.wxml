@@ -1,2 +1,8 @@
-<!--pages/base/base.wxml-->
-<text>pages/base/base.wxml</text>
+<view>{{msg}}</view>
+<image src="{{img}}"></image>
+<view wx:for="{{arr}}" wx:key="index">
+  {{index}}:{{item.name}}-{{item.age}}
+</view>
+{{count}}
+<button bindtap="handlerClick">点击加一</button>
+
