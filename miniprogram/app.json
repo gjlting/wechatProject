@@ -32,7 +32,7 @@
     },
     {
       "pagePath": "pages/cloud/cloud",
-      "text": "基础",
+      "text": "云服务",
       "iconPath": "images/cloud.png",
       "selectIconPath": "images/cloud-actived.png"
     }]
