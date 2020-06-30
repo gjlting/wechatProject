@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/base/base",
+    "pages/cloud/cloud",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "入门小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/base/base",
+      "text": "基础",
+      "iconPath": "images/base.png",
+      "selectIconPath": "images/base-actived.png"
+    },
+    {
+      "pagePath": "pages/cloud/cloud",
+      "text": "基础",
+      "iconPath": "images/cloud.png",
+      "selectIconPath": "images/cloud-actived.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
