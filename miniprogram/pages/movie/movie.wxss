@@ -1,0 +1,46 @@
+.movie {
+  height: 320rpx;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.movie-img {
+  /* flex: 4; */
+  width: 200rpx;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.movie-info {
+  flex: 6;
+  font-size: 28rpx;
+  line-height: 1.8;
+  margin-right: 10rpx;
+}
+/* .movie-info view {
+  padding-bottom: 10rpx;
+} */
+
+.movie-title {
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.movie-score {
+  color: #faaf00;
+}
+.actor {
+  margin-right: 8rpx;
+}
+.movie-comment{
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #E54847;
+  color: #000;
+  margin-top: 120rpx;
+}
+.movie-comment button {
+  font-size: 24rpx;
+  width: 146rpx;
+  color: #fff;
+}

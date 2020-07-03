@@ -1,5 +1,5 @@
 <view>{{msg}}</view>
-<image src="{{img}}"></image>
+<image class="box" src="{{img}}"></image>
 <view wx:for="{{arr}}" wx:key="index">
   {{index}}:{{item.name}}-{{item.age}}
 </view>

@@ -1,0 +1,15 @@
+<view wx:for="{{movieList}}" wx:key="index">
+  <view class="movie" data-movieid="{{item.id}}" bindtap="gotoComment">
+    <image class="movie-img" src="{{item.images.small}}"></image>
+    <view class="movie-info">
+      <view class="movie-title">{{item.title}}</view>
+      <view>观众评分：<text class="movie-score">{{item.rating.average}}</text></view>
+      <view>年份：{{item.year}}</view>
+      
+      <view>主演：<text wx:for="{{item.casts}}" wx:key="index" class="actor">{{item.name}}</text></view>
+    </view>
+    <!-- <view class="movie-comment">
+      <button data-movieid="{{item.id}}" bindtap="gotoComment">评价</button>
+    </view> -->
+  </view>
+</view>

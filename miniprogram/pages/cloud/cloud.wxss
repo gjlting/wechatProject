@@ -1,1 +1,4 @@
 /* pages/cloud/cloud.wxss */
+image {
+  width: 100%;
+}

@@ -64,9 +64,24 @@
 					"query": ""
 				},
 				{
+					"id": 1,
+					"name": "pages/movie/movie",
+					"pathName": "pages/movie/movie",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
 					"name": "pages/cloud/cloud",
 					"pathName": "pages/cloud/cloud",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/comment/comment",
+					"pathName": "pages/comment/comment",
+					"query": "movieId=1292052",
 					"scene": null
 				}
 			]
